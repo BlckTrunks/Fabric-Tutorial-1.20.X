@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "This is a Tutorial Mod, made by BlckTrunks!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.blcktrunks.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"net.blcktrunks.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.blcktrunks.tutorialmod.TutorialModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
