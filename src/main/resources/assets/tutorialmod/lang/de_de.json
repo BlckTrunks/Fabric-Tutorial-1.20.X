@@ -1,3 +1,6 @@
 {
-  "item.tutorialmod.ruby": "Rubin"
+  "item.tutorialmod.ruby": "Rubin",
+  "item.tutorialmod.raw_ruby": "Roher Rubin",
+
+  "itemgroup.ruby": "Itemgruppe Rubin"
 }
