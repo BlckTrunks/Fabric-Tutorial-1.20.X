@@ -2,5 +2,7 @@
   "item.tutorialmod.ruby": "Rubin",
   "item.tutorialmod.raw_ruby": "Roher Rubin",
 
+  "block.tutorialmod.ruby_block": "Rubinblock",
+
   "itemgroup.ruby": "Itemgruppe Rubin"
 }
